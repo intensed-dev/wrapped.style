@@ -3,6 +3,19 @@
   align: center;
   border-bottom: 1px solid gray;
 }
-.so72pj57 {
-  margin: 10px;
+.successful::before {
+  content: "Status: Successful";
+  color: lightgreen;
+}
+.error::before {
+  content: "Status: Error";
+  color: red;
+}
+.other::before {
+  content: "Status: Other/Unknown";
+  color: gray;
+}
+.running::before {
+  content: "Status: Running";
+  color: #FFD700;
 }
