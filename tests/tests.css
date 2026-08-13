@@ -19,3 +19,9 @@
   content: "Status: Running";
   color: #FFD700;
 }
+.test::before {
+  content: "Test-";
+}
+.date::before {
+  content: "created on ";
+}
